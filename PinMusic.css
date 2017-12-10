@@ -1,0 +1,12 @@
+body{
+	height:100%;
+	width:100%;
+}
+#part1{
+	position:relative;
+	height:100%;
+	width:100%;
+	background-color:blue;
+	color:white;
+	opacity:0.5;
+}
