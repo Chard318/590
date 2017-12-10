@@ -18,7 +18,7 @@ class BaseHandler(tornado.web.RequestHandler):
 #Index page
 class mainHandler(BaseHandler):
 	def get(self):
-		self.render("PinMusic.html")
+		self.render("index.html")
 		
 settings = {
 	"static_path": os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static'),
